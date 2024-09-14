@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark px-4 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-1" href="#" style="color: #eaa636">Danbro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center fs-5" style="gap:20px">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: #eaa636">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" style="margin-top: 65px">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/carousel-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/carousel-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/carousel-3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/carousel-4.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container-xxl py-6">
+        <div class="container" style="margin-top: 100px;">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="fact-item rounded text-center about h-100 p-5">
+                        <i class="fa fa-certificate fa-4x mb-4" style="color:#eaa636"></i>
+                        <p class="mb-2">Years Experience</p>
+                        <h1 class="display-5 mb-0">50</h1>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="fact-item rounded text-center about h-100 p-5">
+                        <i class="fa fa-users fa-4x mb-4" style="color:#eaa636"></i>
+                        <p class="mb-2">Skilled Professionals</p>
+                        <h1 class="display-5 mb-0">175</h1>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="fact-item rounded text-center about h-100 p-5">
+                        <i class="fa fa-bread-slice fa-4x mb-4" style="color:#eaa636"></i>
+                        <p class="mb-2">Total Products</p>
+                        <h1 class="display-5 mb-0">135</h1>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeIn">
+                    <div class="fact-item rounded text-center about h-100 p-5">
+                        <i class="fa fa-cart-plus fa-4x mb-4" style="color:#eaa636"></i>
+                        <p class="mb-2">Order Everyday</p>
+                        <h1 class="display-5 mb-0">9357</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl py-6" style="margin-top: 100px;">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="row img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="Images/about-1.jpg" alt="">
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="Images/about-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="h-100">
+                        <h1 class="display-6 mb-4 fw-bold">We Bake Every Item From The Core Of Our Hearts</h1>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+                            Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                        </p>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+                            Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                        </p>
+                        <div class="row g-2 mb-4">
+                            <div class="col-sm-6">
+                                <i class="fa fa-check me-2" style="color:#eaa636"></i>Quality Products
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check me-2" style="color:#eaa636"></i>Custom Products
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check me-2" style="color:#eaa636"></i>Online Order
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check me-2" style="color:#eaa636"></i>Home Delivery
+                            </div>
+                        </div>
+                        <a class="btn rounded-pill py-3 px-5" href="#" style="color:white;background-color:#eaa636">Read
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl my-6 py-6 pt-0" style="background-color:#FDF5EB">
+        <div class="container"
+            style="margin-top: 100px; padding-top: 30px; padding-bottom: 30px; background-color:#FDF5EB">
+            <div class="text-center mx-auto mb-5">
+                <h1 class="display-6 mb-4">Explore The Categories Of Our Bakery Products</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block rounded-pill px-3 mb-3" style="border:1px solid #eaa636">&#8377
+                                600</div>
+                            <h3 class="mb-3">Cake</h3>
+                            <span>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</span>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="Images/product-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block rounded-pill pt-1 px-3 mb-3" style="border:1px solid #eaa636">
+                                &#8377 175</div>
+                            <h3 class="mb-3">Bread</h3>
+                            <span>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</span>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="Images/product-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block rounded-pill pt-1 px-3 mb-3" style="border:1px solid #eaa636">
+                                &#8377 300</div>
+                            <h4 class="mb-3">Cookies</h4>
+                            <span>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</span>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="Images/product-3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl py-6" style="margin-top: 100px">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <h1 class="display-6 mb-4">What Do We Offer For You?</h1>
+                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
+                    <div class="row gy-5 gx-4">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class=" btn-square rounded-circle me-3"
+                                    style=" height: 40px;justify-content: center; align-items:center;display: inline-flex; width: 40px; background-color:#eaa636;">
+                                    <i class="fa fa-bread-slice text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Quality Products</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="btn-square rounded-circle me-3"
+                                    style=" height: 40px;justify-content: center; align-items:center;display: inline-flex; width: 40px; background-color:#eaa636;">
+                                    <i class="fa fa-birthday-cake text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Custom Products</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="btn-square rounded-circle me-3"
+                                    style=" height: 40px;justify-content: center; align-items:center;display: inline-flex; width: 40px; background-color:#eaa636;">
+                                    <i class="fa fa-cart-plus text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Online Order</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="btn-square rounded-circle me-3"
+                                    style=" height: 40px;justify-content: center; align-items:center;display: inline-flex; width: 40px; background-color:#eaa636;">
+                                    <i class="fa fa-truck text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Home Delivery</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="Images/service-1.jpg" alt="">
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="Images/service-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5" style="margin-top: 100px">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Office Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, City, Country</p>
+                    <p class="mb-2"><i class="fa fa-phone me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class=" pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1"
+                            style="height: 40px; width: 40px; justify-content: center; align-items: center; display: inline-flex"
+                            href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1"
+                            style="height: 40px; width: 40px; justify-content: center; align-items: center; display: inline-flex"
+                            href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1"
+                            style="height: 40px; width: 40px; justify-content: center; align-items: center; display: inline-flex"
+                            href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-0"
+                            style="height: 40px; width: 40px; justify-content: center; align-items: center; display: inline-flex"
+                            href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link footer-text" href=""><span
+                            style="font-family: monospace; font-weight: bold">></span> About
+                        Us</a><br />
+                    <a class="btn btn-link footer-text" href=""><span
+                            style="font-family: monospace; font-weight: bold">></span> Contact
+                        Us</a>
+                    <a class="btn btn-link footer-text" href=""><span
+                            style="font-family: monospace; font-weight: bold">></span> Our
+                        Services</a>
+                    <a class="btn btn-link footer-text" href=""><span
+                            style="font-family: monospace; font-weight: bold">></span> Terms
+                        &amp; Condition</a>
+                    <a class="btn btn-link footer-text" href=""><span
+                            style="font-family: monospace; font-weight: bold">></span>
+                        Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link footer-text" href=""><span
+                            style="font-family: monospace; font-weight: bold">></span> About
+                        Us</a><br />
+                    <a class="btn btn-link footer-text" href=""><span
+                            style="font-family: monospace; font-weight: bold">></span> Contact
+                        Us</a>
+                    <a class="btn btn-link footer-text" href=""><span
+                            style="font-family: monospace; font-weight: bold">></span> Our
+                        Services</a>
+                    <a class="btn btn-link footer-text"><span style="font-family: monospace; font-weight: bold">></span>
+                        Terms &amp;
+                        Condition</a>
+                    <a class="btn btn-link footer-text" href=""><span
+                            style="font-family: monospace; font-weight: bold">></span>
+                        Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Photo Gallery</h4>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="Images/product-1.jpg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="Images/product-2.jpg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="Images/product-3.jpg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="Images/product-2.jpg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="Images/product-3.jpg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="Images/product-1.jpg" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
