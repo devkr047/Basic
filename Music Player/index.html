@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Music Player</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <button class="hdbtn">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+      <h3 class="p-now">Playing now</h3>
+      <button class="hdbtn">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </header>
+    <div class="player">
+      <div class="img-area">
+        <img src="Images/0.png" alt="">
+      </div>
+
+      <div class="song-details">
+        <h1 class="name"></h1>
+        <h3 class="artist"></h3>
+      </div>
+
+      <div class="audioC">
+        <div class="song-timer">
+          <span class="current-time"></span>
+          <span class="max-duration"></span>
+        </div>
+        <div class="progress-area">
+          <div class="progress-bar">
+            <audio src="" id="main-audio"></audio>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button class="btnC" id="prev">
+          <ion-icon name="play-back"></ion-icon>
+        </button>
+        <button class="play-pause btnC">
+          <ion-icon name="play"></ion-icon>
+        </button>
+        <button class="btnC" id="next">
+          <ion-icon name="play-forward"></ion-icon>
+        </button>
+      </div>
+
+    </div>
+  </div>
+  <script src="JS/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
